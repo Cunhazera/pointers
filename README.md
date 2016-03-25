@@ -1,3 +1,3 @@
 # pointers
 
-SO work about pointers
+OS work about pointers
