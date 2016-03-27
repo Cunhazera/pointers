@@ -9,8 +9,8 @@ int resolveEquacao(int a, int b, int c, float* x1, float* x2)  {
 		return 0;
 	}
 
-	*x1 = ( -b + sqrt( (b * b) - 4 * a * c ) ) / (2 * a);
-	*x2 = ( -b - sqrt( (b * b) - 4 * a * c ) ) / (2 * a);
+	*x1 = ( -b + sqrt( delta ) ) / (2 * a);
+	*x2 = ( -b - sqrt( delta ) ) / (2 * a);
 
 	return 1;
 }
