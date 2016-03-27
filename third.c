@@ -18,7 +18,7 @@ main() {
 
 	while(!feof(file)) {
 		value = fgetc(file);
-		chars[value]++;
+		if (value < 128) chars[value]++;
 	}
 	fclose(file);
 
