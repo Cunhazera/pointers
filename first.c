@@ -15,7 +15,7 @@ int resolveEquacao(int a, int b, int c, float* x1, float* x2)  {
 	return 1;
 }
 
-main() {
+int main() {
 	float x1, x2;
 	int a, b, c;
 
